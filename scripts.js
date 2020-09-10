@@ -80,6 +80,7 @@ function mostarResultado() {
         case "/":
             let dividir = parseInt(arreglo[0]) / parseInt(arreglo[2])
             document.getElementById("data").value = dividir
+            break;
         default:
             alert("Esta no es una opcion valida")
     }
@@ -114,13 +115,13 @@ function preguntarDia() {
             alert("En ingles se escribe: Friday")
             break;
 
-            case "sabado":
-                alert("En ingles se escribe: Saturday")
-                break;
-                case "domingo":
-                    alert("En ingles se escribe: Sunday")
-                    break;
-            
+        case "sabado":
+            alert("En ingles se escribe: Saturday")
+            break;
+        case "domingo":
+            alert("En ingles se escribe: Sunday")
+            break;
+
         default:
             alert("¡INVALIDO!...Escriba el dia por favor")
     }
